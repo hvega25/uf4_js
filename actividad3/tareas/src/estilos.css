@@ -1,3 +1,23 @@
 .contenedorBoton {
     display: flex;
 }
+
+.tarea {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #213547;
+    color: white;
+    border: white solid 1px;
+}
+
+.tarea:hover {
+    cursor: pointer;
+}
+
+.completada {
+    color: #c5aeff;
+    text-decoration: line-through;
+    cursor: pointer;
+}
